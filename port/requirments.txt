@@ -1,0 +1,6 @@
+server- 9010
+Admin 1234
+python3 -m pip install pillow
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
